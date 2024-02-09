@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+#slidingDiv {
+    animation: slideRight 2.5s ease;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  
+  @keyframes slideRight {
+    from {
+      transform: translateX(-100%);
+      visibility: visible;
+    }
+    to {
+      transform: translateX(0%);
+      visibility: visible;
+    }
+  }
+
+
+  #sliding{
+    animation: slideLeft 2.5s ease;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  
+  @keyframes slideLeft {
+    from {
+      transform: translateX(100%);
+      visibility: visible;
+    }
+    to {
+      transform: translateX(0%);
+      visibility: visible;
+    }
+  }
+
+  #imgTop{
+    animation: slideDown 2.5s ease;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+      visibility: visible;
+    }
+    to {
+      transform: translateY(0%);
+      visibility: visible;
+    }
+  }
+  #headingTop{
+    animation: slideDown 1s ease;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+      visibility: visible;
+    }
+    to {
+      transform: translateY(0%);
+      visibility: visible;
+    }
+  }
+  
+  
+ 
