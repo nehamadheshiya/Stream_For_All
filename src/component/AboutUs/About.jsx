@@ -4,7 +4,7 @@ import RightAbt from "./RightAbt";
 function About() {
   return (
     <div>
-        <div className='h-[142vh] md:h-[120vh] w-full md:flex'>
+        <div className='sm:h-auto md:h-[120vh] w-full md:flex'>
             <LeftAbt/>
             <RightAbt/>
         </div>

@@ -5,7 +5,7 @@ import Leftt from './Leftt'
 
 function Home() {
   return (
-    <div className='h-[130vh] w-full md:flex'>
+    <div className='sm:h-auto md:h-[130vh] w-full md:flex'>
       <Leftt/>
       <Right/>
     </div>
