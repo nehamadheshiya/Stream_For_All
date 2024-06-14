@@ -45,11 +45,11 @@ const Nav = () => {
                 </div>
                 {isNavOpen && (
                     <div className="md:hidden flex flex-col items-center py-2">
-                        <a href="#home" className='hover:text-orange-800 py-1' onClick={handleClick}>Home</a>
-                        <a href="#privacy" className='hover:text-orange-800 py-1' onClick={handleClick}>Privacy Policy</a>
-                        <a href="#terms" className='hover:text-orange-800 py-1' onClick={handleClick}>Terms and Conditions</a>
-                        <a href="#about" className='hover:text-orange-800 py-1' onClick={handleClick}>About us</a>
-                        <a href="#contact" className='hover:text-orange-800 py-1' onClick={handleClick}>Contact us</a>
+                        <a href="#home" className='hover:text-orange-800 py-1' >Home</a>
+                        <a href="#privacy" className='hover:text-orange-800 py-1' >Privacy Policy</a>
+                        <a href="#terms" className='hover:text-orange-800 py-1' >Terms and Conditions</a>
+                        <a href="#about" className='hover:text-orange-800 py-1' >About us</a>
+                        <a href="#contact" className='hover:text-orange-800 py-1' >Contact us</a>
                         <button className='bg-orange-700 text-white h-10 w-32 rounded-lg'>Download now</button>
                     </div>
                 )}
