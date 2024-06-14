@@ -2,7 +2,7 @@ import React from 'react'
 import logpwhite from "../../assets/logpwhite.png";
 function Footer() {
   return (
-    <div className='h-[85vh] mt-16 md:h-[90vh] w-[500px] md:w-full  bg-gray-800 relative'>
+    <div className='h-[85vh] mt-16 md:h-[90vh] w-[490px] md:w-full  bg-gray-800 relative'>
       <div id="slidingDiv" className=' h-auto md:h-[70%] w-[90%] md:w-[25%] bg-orange-800 rounded-3xl ml-[5%] md:ml-[10%] absolute mt-14'>
         <div className='pl-[10%] pt-[20%] md:pt-[10%]'>
             <img src={logpwhite} alt="img" className='h-20 w-20'/>

@@ -20,7 +20,7 @@ const Nav = () => {
 
     return (
         <div className='wrapper'>
-            <div className="w-[500px] md:w-screen bg-gray-100 shadow-xl text-gray-900 md:text-white">
+            <div className="w-[490px] md:w-screen bg-gray-100 shadow-xl text-gray-900 md:text-white">
                 <div className="flex justify-between items-center px-4 py-2">
                     <div>
                         <img src={newlogo} alt="Logo" className="h-10 md:h-12 w-10 md:w-12" />
